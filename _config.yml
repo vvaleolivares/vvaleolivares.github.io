@@ -1,7 +1,3 @@
-url: "https://vvaleolivares.github.io/" 
-gems: 
-      - jekyll-sitemap
-plugins:
-      - jekyll-sitemap
 sitemap: true
+gems: - jekyll-sitemap      
 
