@@ -1,3 +1,4 @@
+url: "https://vvaleolivares.github.io/" 
 plugins:
   - jekyll-sitemap
 sitemap: true
