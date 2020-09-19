@@ -1,3 +1,4 @@
 sitemap: true
-gems: - jekyll-sitemap      
+gems: 
+      - jekyll-sitemap      
 
