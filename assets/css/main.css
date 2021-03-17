@@ -3196,7 +3196,7 @@ input, select, textarea {
 
 /* XSmall */
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 300px) {
 
 		/* Header */
 
@@ -3204,7 +3204,8 @@ input, select, textarea {
 				padding: 4.5em 1.5em;
 			}
 
-				#header h1 br {
+				#
+		er h1 br {
 					display: none;
 				}
 
