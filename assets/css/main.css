@@ -22,7 +22,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: sans-serif;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
