@@ -101,7 +101,7 @@ input, select, textarea {
 		color: #e8e8e8;
 		font-family: "Helvetica", Helvetica, sans-serif;
 		font-size: 16.5pt;
-		font-weight: 50;
+		font-weight: 10;
 		line-height: 1.65em;
 	}
 
@@ -123,7 +123,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #cfc9c0;
-		font-weight: 100;
+		font-weight: 50;
 	}
 
 	em, i {
@@ -136,7 +136,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #dedddc;
-		font-weight: 100;
+		font-weight: 50;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -840,11 +840,11 @@ input, select, textarea {
 				}
 
 				.row > .col-3-large {
-					width: 25%;
+					width: 20%;
 				}
 
 				.row > .off-3-large {
-					margin-left: 25%;
+					margin-left: 20%;
 				}
 
 				.row > .col-4-large {
