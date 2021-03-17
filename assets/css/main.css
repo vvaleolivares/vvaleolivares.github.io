@@ -2632,6 +2632,8 @@ input, select, textarea {
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
+			font-family: Raleway, Helvetica, sans-serif;
+
 		}
 
 		#header h1 {
