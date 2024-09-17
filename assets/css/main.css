@@ -125,9 +125,9 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16.5pt;
-		font-weight: 300;
-		line-height: 1.65;
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1.55;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -223,7 +223,7 @@ input, select, textarea {
 				height: 2em;
 				line-height: 1.75em;
 				margin-right: 0.85em;
-				text-align: center;
+				text-align: justify;
 				text-indent: 0.15em;
 				vertical-align: middle;
 				width: 2em;
@@ -252,7 +252,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-family: Raleway, Helvetica, sans-serif;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
@@ -421,7 +421,7 @@ input, select, textarea {
 		}
 
 		.row > .off-1 {
-			margin-left: 8.33333%;
+			margin-left: 5.33333%;
 		}
 
 		.row > .col-2 {
@@ -429,15 +429,15 @@ input, select, textarea {
 		}
 
 		.row > .off-2 {
-			margin-left: 16.66667%;
+			margin-left: 10.66667%;
 		}
 
 		.row > .col-3 {
-			width: 25%;
+			width: 20%;
 		}
 
 		.row > .off-3 {
-			margin-left: 25%;
+			margin-left: 20%;
 		}
 
 		.row > .col-4 {
@@ -445,7 +445,7 @@ input, select, textarea {
 		}
 
 		.row > .off-4 {
-			margin-left: 33.33333%;
+			margin-left: 20.33333%;
 		}
 
 		.row > .col-5 {
@@ -573,11 +573,11 @@ input, select, textarea {
 			}
 
 			.row.gtr-uniform {
-				margin-top: -1.75em;
+				margin-top: -1.45em;
 			}
 
 				.row.gtr-uniform > * {
-					padding-top: 1.75em;
+					padding-top: 1.45em;
 				}
 
 		.row.gtr-150 {
@@ -664,7 +664,7 @@ input, select, textarea {
 				}
 
 				.row > .off-1-xlarge {
-					margin-left: 8.33333%;
+					margin-left: 5.33333%;
 				}
 
 				.row > .col-2-xlarge {
@@ -672,7 +672,7 @@ input, select, textarea {
 				}
 
 				.row > .off-2-xlarge {
-					margin-left: 16.66667%;
+					margin-left: 10.66667%;
 				}
 
 				.row > .col-3-xlarge {
@@ -905,19 +905,19 @@ input, select, textarea {
 				}
 
 				.row > .col-1-large {
-					width: 8.33333%;
+					width: 5.33333%;
 				}
 
 				.row > .off-1-large {
-					margin-left: 8.33333%;
+					margin-left: 5.33333%;
 				}
 
 				.row > .col-2-large {
-					width: 16.66667%;
+					width: 15.66667%;
 				}
 
 				.row > .off-2-large {
-					margin-left: 16.66667%;
+					margin-left: 15.66667%;
 				}
 
 				.row > .col-3-large {
@@ -961,11 +961,11 @@ input, select, textarea {
 				}
 
 				.row > .col-8-large {
-					width: 66.66667%;
+					width: 88;
 				}
 
 				.row > .off-8-large {
-					margin-left: 66.66667%;
+					margin-left: 88;
 				}
 
 				.row > .col-9-large {
@@ -985,11 +985,11 @@ input, select, textarea {
 				}
 
 				.row > .col-11-large {
-					width: 91.66667%;
+					width: 95.66667%;
 				}
 
 				.row > .off-11-large {
-					margin-left: 91.66667%;
+					margin-left: 95.66667%;
 				}
 
 				.row > .col-12-large {
@@ -2087,13 +2087,13 @@ input, select, textarea {
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: center;
+		text-align: justify;
 	}
 
 /* Form */
 
 	form {
-		margin: 0 0 2em 0;
+		margin: 0 0 0em 0;
 	}
 
 		form > :last-child {
@@ -2110,7 +2110,7 @@ input, select, textarea {
 			-ms-flex-wrap: wrap;
 			flex-wrap: wrap;
 			width: calc(100% + 3em);
-			margin: -1.5em 0 2em -1.5em;
+			margin: -1.5em 0 1em -1.5em;
 		}
 
 			form > .fields > .field {
@@ -2428,7 +2428,7 @@ input, select, textarea {
 		}
 
 			.image.left img, .image.right img {
-				width: 100%;
+				width: 70%;
 			}
 
 		.image.left {
@@ -2450,17 +2450,17 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 80%;
 			}
 
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
-			width: 100%;
+			width: 80%;
 		}
 
 			.image.main img {
-				width: 100%;
+				width: 80%;
 			}
 
 /* List */
@@ -2768,7 +2768,7 @@ input, select, textarea {
 
 			ul.pagination li:first-child {
 				width: calc(50% - 2px);
-				text-align: left;
+				text-align: justify;
 				padding-right: 0.325em;
 			}
 
@@ -2811,7 +2811,7 @@ input, select, textarea {
 			font-size: 0.9em;
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
+			text-align: justify;
 		}
 
 		table thead {
@@ -3026,8 +3026,9 @@ input, select, textarea {
 			}
 
 				.features article .image img {
-					border-radius: 5px 5px 0 0;
-					width: 100%;
+					border-radius: 4px 4px 0 0;
+					width: 70%;
+                    
 				}
 
 		@media screen and (max-width: 980px) {
@@ -3219,7 +3220,7 @@ input, select, textarea {
 					top: 0;
 					left: 0;
 					text-indent: 0;
-					text-align: right;
+					text-align: justify;
 					margin-left: 0;
 					padding-right: 1.25em;
 				}
@@ -3626,7 +3627,7 @@ input, select, textarea {
 
 	.wrapper {
 		background-color: #2e3141;
-		margin: 6.5em 0;
+		margin: 1.8em 0;
 		position: relative;
 	}
 
@@ -3635,11 +3636,11 @@ input, select, textarea {
 		}
 
 		.wrapper:before {
-			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+			box-shadow: inset 0 0px 0 0 #2e3141, 0 0px 0 0 #2e3141;
 		}
 
 		.wrapper:after {
-			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+			box-shadow: inset 0 0px 0 0 #2e3141, 0 0px 0 0 #2e3141;
 		}
 
 		.wrapper:before, .wrapper:after {
@@ -3647,14 +3648,14 @@ input, select, textarea {
 			background-size: 100% 100%;
 			content: '';
 			display: block;
-			height: 6.5em;
+			height: 6em;
 			position: absolute;
 			width: 100%;
 		}
 
 		.wrapper:before {
 			left: 0;
-			top: -6.5em;
+			top: -6em;
 		}
 
 		.wrapper:after {
@@ -3662,7 +3663,7 @@ input, select, textarea {
 			-webkit-transform: scaleY(-1);
 			-ms-transform: scaleY(-1);
 			transform: scaleY(-1);
-			bottom: -6.5em;
+			bottom: -6em;
 			left: 0;
 		}
 
@@ -3681,7 +3682,7 @@ input, select, textarea {
 		}
 
 		.wrapper .inner {
-			padding: 3em 0 1em 0 ;
+			padding: 0em 0 0em 0 ;
 			margin: 0 auto;
 			width: 55em;
 		}
@@ -3796,15 +3797,15 @@ input, select, textarea {
 
 			.wrapper.spotlight .image {
 				border-radius: 100%;
-				margin: 0 3em 2em 0;
-				width: 22em;
+				margin: 0 1em 1em 0;
+				width: 25em;
 				overflow: hidden;
 				-ms-flex: 1;
 			}
 
 				.wrapper.spotlight .image img {
-					border-radius: 100%;
-					width: 100%;
+					border-radius: 60%;
+					width: 95%;
 				}
 
 			.wrapper.spotlight .content {
@@ -3817,7 +3818,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				text-align: right;
+				text-align: justify;
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .image {
@@ -3833,11 +3834,11 @@ input, select, textarea {
 				}
 
 				.wrapper.spotlight.style2:before {
-					box-shadow: inset 0 -1px 0 0 #605A5A, 0 1px 0 0 #605A5A;
+					box-shadow: inset 0 0px 0 0 #605A5A, 0 1px 0 0 #605A5A;
 				}
 
 				.wrapper.spotlight.style2:after {
-					box-shadow: inset 0 -1px 0 0 #605A5A, 0 1px 0 0 #605A5A;
+					box-shadow: inset 0 0px 0 0 #605A5A, 0 1px 0 0 #605A5A;
 				}
 
 			.wrapper.spotlight.style3 {
